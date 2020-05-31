@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	background-color: #702a35;
+	text-align: center;
+	color: rgb(255,230,130);
+	margin: 0;
+	padding: 40px 0;
+	font-family: sans-serif;
+	
+}
+
+#wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: #702a35;
+	justify-content: space-around;
+}
+
+.piece {
+	width: 200px;
+	height: 246px;
+	background: url("choco.png");
+	background-color: #702a35;
+	margin-bottom: 10px;
+}
+
+.text {
+	position: relative;
+	top: 40%;
+	left: 45%;
+	font-size: 50px;
+	font-family: sans-serif;
+	color: rgb(255,230,130);
+}
